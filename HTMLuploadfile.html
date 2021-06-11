@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Upload File</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="cssuser/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+  </head>
+  <body>
+<!-- start upload ảnh -->
+<section class="formloadanh ">
+<section class="container justify-content-center rounded-pill border-primary">
+  <div class="row justify-content-center border-bottom border-primary p-2">
+    <form  action="php/upload.php" method="POST" enctype="multipart/form-data">
+        <h3> Chọn hình ảnh</h3>
+        <input type="file" name="upload_file">
+        <input type="submit" name="submit" value="Tải lên">
+    </form>
+  </div>
+</section>
+</section>
+<!-- end upload ảnh -->
+
+<!-- start get danh sách ảnh -->
+<section class="container" >
+  <div class="row mt-2 formdanhsachanh">
+    <div class="card" style="width: 18rem;">
+      <img src="img/black-lux-a2.0.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text" align="center"> xe vinfast</p>
+      </div>
+    </div>  
+    <div class="card" style="width: 18rem;">
+      <img src="img/black-lux-a2.0.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text" align="center"> xe vinfast</p>
+      </div>
+    </div>  
+    <div class="card" style="width: 18rem;">
+      <img src="img/black-lux-a2.0.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text" align="center"> xe vinfast</p>
+      </div>
+    </div>  
+  </div>
+  <div class="row mt-2 justify-content-center pagenumberanh" ></div>
+</section>
+<!-- end get danh sách ảnh -->
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootbox.min copy.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="jsuser/listmenu.js"></script>
+    <script src="jsuser/thongbao.js"></script>
+    <script src="jsuser/ajax.js"></script>
+    <script src="jsuser/main.js"></script>
+    <script src="jsuser/admin.js"></script>
+    <script src="jsuser/buildPage.js"></script>
+    <script src="jsuser/buildPageimg.js"></script>
+  </body>
+</html>
